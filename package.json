@@ -1,9 +1,17 @@
 {
+<<<<<<< HEAD
   "name": "react-news",
   "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/echenley/react-news.git"
+=======
+  "name": "reHack",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:supritashankar/reHack.git"
+>>>>>>> upstream/master
   },
   "dependencies": {
     "babel-preset-es2015": "^6.0.14",
