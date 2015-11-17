@@ -5,7 +5,7 @@ import hostNameFromUrl from '../util/hostNameFromUrl';
 
 const PostLink = ({ url, title }) => (
     <div className="post-link">
-        <a className="post-title" href={ url }>{ title }</a>
+        <a className="post-title" href={ url }>{ title }.toLowerCase()</a>
         <span className="hostname">
             (<a href={ url }>{ hostNameFromUrl(url) }</a>)
         </span>
